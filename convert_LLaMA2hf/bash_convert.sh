@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=1
+python convert_llama_to_hf_model.py
