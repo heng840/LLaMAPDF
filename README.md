@@ -78,7 +78,7 @@ LLaMAPDF uses two main components to enable processing of longer texts:
    e. Intelligent Combination:
       - Results from overlapping regions are combined using a weighted average based on token position.
       - A small "combiner" model (e.g., a fine-tuned BERT model) is used to select the most coherent transitions between non-overlapping sections.
-      - Details:
+      - Details: see [Intelligent Combination.md](https://github.com/heng840/LLaMAPDF/blob/main/Intelligent%20Combination.md)
 
    f. Final Synthesis:
       - The second-level output is used to guide the combination of the detailed first-level outputs.
